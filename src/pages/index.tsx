@@ -70,7 +70,7 @@ export default function Home() {
             </p>
           </Link>
 
-          <Link href="/csr" className={styles.card}>
+          <Link href="/ssg" className={styles.card}>
             <h2 className={inter.className}>
               SSG <span>-&gt;</span>
             </h2>
