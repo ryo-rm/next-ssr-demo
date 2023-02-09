@@ -8,7 +8,7 @@ type Props = {
   time: string;
 };
 export default function Home({ time }: Props) {
-  const [browserTime, setBrowserTime] = useState('');
+  const [browserTime, setBrowserTime] = useState(time);
   useEffect(() => {
     const interval = setInterval(() => {
       setBrowserTime(new Date().toISOString());
